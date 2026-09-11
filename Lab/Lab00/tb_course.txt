@@ -1,0 +1,3 @@
+cno		cname	cno		cname
+C01		数据库	C03		信息系统
+C02		数学		C04		操作系统
