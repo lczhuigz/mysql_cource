@@ -1,11 +1,11 @@
 -- 创建名为db_school的数据库
-create database db_school charset utf8mb4;
+create database if NOT EXISTS db_school charset utf8mb4;
 
 -- 使用名为db_school的数据库
 use db_school;
 
 -- 创建名为tb_student的表
-create table tb_student(
+create table if NOT EXISTS tb_student(
   sno char(10) not null primary key,
   sname varchar(8) null,
   ssex char(2) null,
